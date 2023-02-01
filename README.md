@@ -1,6 +1,6 @@
 # unite-random
 this isnt a very complicated program
-
+it is a simple randomizer for pokemon unite
 # How to use
 1. click link on side
 2. click button
@@ -9,4 +9,4 @@ this isnt a very complicated program
 # What i want to add
 1. ability to randomize the path you go
 2. randomize your held items
-
+2. you can choose which pokemon you want to be able to randomize, instead of all of them all at once 
