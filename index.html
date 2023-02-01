@@ -1,4 +1,4 @@
-    <html>  
+     <html>  
     <head>  
     <title>Pokemo unitee random izer lol</title>  
     <p1> source: Unite-db.com </p1>
@@ -16,6 +16,7 @@
   cursor: pointer;
 
 }
+    .button5 {background-color: #555555;} /* Black */
 
     body {  
     margin-top: 2px;  
@@ -299,6 +300,14 @@
       document.body.appendChild(newImage);  
     }  
     </script>  
+    <script>
+    function path() {
+        var message = ["Go top path","Go Central Path","Go Bottom path"];
+        var a = Math.floor(Math.random() * message.length);
+
+        window.alert(message[a]);
+    }
+    </script>
     </center>  
     <body>  
     <div>  
@@ -306,6 +315,7 @@
     <h2 style="font-family: Arial">Random pokemon unite character generator </h2>  
     <h4 style="font-family: Arial">Press the button to display and change the image </h4>  
     <button onclick="displayRandomImages();" class="button"> Display Images </button>  
+    <button onclick="path();" class="button button5"> Chose random path </button>  
     </center>   
     </div>  
     </body>  
