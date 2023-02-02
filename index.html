@@ -1,9 +1,9 @@
-<!DOCTYPE HTML>   
+<!DOCTYPE HTML>
 <html>
-   <head>
-      <title>Pokemon unite randomizer</title>
-      <p1> source: Unite-db.com </p1>
-      <style>  
+	<head>
+		<title>Pokemon unite randomizer</title>
+		<p1> source: Unite-db.com </p1>
+		<style>  
          .button {
          background-color: #f54e4e; /* pastel red */
          border: none;
@@ -20,10 +20,15 @@
          body {  
          margin-top: 2px;  
          }  
+         
+         .button4 {background-color: #ff00fb;} /* Black */
+         body {
+         margin-top: 2px;  
+         }  
       </style>
-   </head>
-   <center>
-      <script>  
+	</head>
+	<center>
+		<script>  
          function displayRandomImages()   
          {  
               
@@ -304,17 +309,25 @@
          
              window.alert(message[a]);
          }
-      </script>  
+        function items() {
+             var message = ["Aeos Cookie","Assault Vest","Attack weight","Buddy barrier","Choice Specs","Drain Crown","Energy Amplifier","Exp. Share","Float Stone","Focus Band","LeftOvers","Muscle band","Razor Claw","Rocky Helmet","Scope lens","Score Shield","Shell bell","Sp. Atk Specs","Weakness Police","Wise Glasses"];
+                
+             var b = Math.floor(Math.random() * message.length);
+         
+             window.alert(message[b]);
+        } 
       
-   </center>
-   <body style="background-color:darkorchid;">
-      <div>
-         <center>
-            <h2 style="font-family: Arial">Random pokemon unite character generator </h2>
-            <h4 style="font-family: Arial">Press the button to display and change the image </h4>
-            <button onclick="displayRandomImages();" class="button">  Randomize pokemon </button>  
-            <button onclick="path();" class="button button5"> Chose random path </button>  
-         </center>
-      </div>
-   </body>
+		</script>
+	</center>
+	<body style="background-color:darkorchid;">
+		<div>
+			<center>
+				<h2 style="font-family: Arial">Random pokemon unite character generator </h2>
+				<h4 style="font-family: Arial">Press the button to display and change the image </h4>
+				<button onclick="displayRandomImages();" class="button">  Randomize pokemon </button>
+				<button onclick="path();" class="button button5"> Chose random path </button>
+				<button onclick="items();" class="button button4"> randomize held items </button>
+			</center>
+		</div>
+	</body>
 </html>
