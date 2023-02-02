@@ -8,16 +8,53 @@
          background-color: #f54e4e; /* pastel red */
          border: none;
          color: white;
-         padding: 15px 32px;
+         padding: 10px 20px;
          text-align: center;
          text-decoration: none;
          display: inline-block;
          font-size: 16px;
          margin: 4px 2px;
          cursor: pointer;
+         border-radius: 16px;
          }
          .button2 {
           background-color: #ddd;
+          border: none;
+          color: black;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 16px;
+         }
+         .button450 {
+          background-color: #ff00fb;
+          border: none;
+          color: black;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 16px;
+         }
+         .button45 {
+          background-color: #701919;
+          border: none;
+          color: black;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 16px;
+         }
+         .button23 {
+          background-color: #427ef5;
           border: none;
           color: black;
           padding: 10px 20px;
@@ -326,7 +363,7 @@
              window.alert(message[a]);
          }
         function items() {
-             var message = ["Aeos Cookie","Assault Vest","Attack weight","Buddy barrier","Choice Specs","Drain Crown","Energy Amplifier","Exp. Share","Float Stone","Focus Band","LeftOvers","Muscle band","Razor Claw","Rocky Helmet","Scope lens","Score Shield","Shell bell","Sp. Atk Specs","Weakness Police","Wise Glasses"];
+             var message = ["Aeos Cookie","Assault Vest","Attack weight","Buddy barrier","Choice Specs","Drain Crown","Energy Amplifier","Exp. Share","Float Stone","Focus Band","Leftovers","Muscle band","Razor Claw","Rocky Helmet","Scope lens","Score Shield","Shell bell","Sp. Atk Specs","Weakness Police","Wise Glasses"];
                 
              var b = Math.floor(Math.random() * message.length);
          
@@ -335,15 +372,15 @@
       
 		</script>
 	</center>
-	<body style="background-color:darkorchid;">
+	<body style="background-color: darkcyan;">
 		<div>
 			<center>
 				<h2 style="font-family: Arial">Random pokemon unite character generator </h2>
 				<h4 style="font-family: Arial">Press the button to display and change the image </h4>
 				<button onclick="displayRandomImages();" class="button">  Randomize pokemon </button>
-				<button onclick="path();" class="button button5"> Chose random path </button>
-				<button onclick="items();" class="button button4"> randomize held items </button>
-				<button onclick="items();" class="button button2"> Randomize battle items </button>
+				<button onclick="path();" class="button button45"> Chose random path </button>
+				<button onclick="items();" class="button button450"> randomize held items </button>
+				<button onclick="items();" class="button button23"> Randomize battle items </button>
 			</center>
 		</div>
 	</body>
