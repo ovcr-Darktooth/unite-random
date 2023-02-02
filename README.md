@@ -11,3 +11,4 @@ it is a simple randomizer for pokemon unite
 
 2. randomize your held items
 3. you can choose which pokemon you want to be able to randomize, instead of all of them all at once 
+4. comfey (soon)
