@@ -7,6 +7,7 @@ it is a simple randomizer for pokemon unite
 3. use pokemon
 
 # What i want to add
-~~1. Randomize the past you go~~
+~~1. Randomize the past you go~~  
+
 2. randomize your held items
-2. you can choose which pokemon you want to be able to randomize, instead of all of them all at once 
+3. you can choose which pokemon you want to be able to randomize, instead of all of them all at once 
