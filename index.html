@@ -369,13 +369,22 @@
              window.alert(message[a]);
          }
         function items() {
-             var message = ["Aeos Cookie","Assault Vest","Attack weight","Buddy barrier","Choice Specs","Drain Crown","Energy Amplifier","Exp. Share","Float Stone","Focus Band","Leftovers","Muscle band","Razor Claw","Rocky Helmet","Scope lens","Score Shield","Shell bell","Sp. Atk Specs","Weakness Police","Wise Glasses"];
+             var message = ["Aeos Cookie","Assault Vest","Attack weight","Buddy barrier","Choice Specs","Drain Crown","Energy Amplifier","Exp. Share","Float Stone","Focus Band","Leftovers","Muscle band","Razor Claw","Rocky Helmet","Scope lens","Score Shield","Shell bell","Sp. Atk Specs","Weakness Policy", "Wise Glasses"]
                 
              var b = Math.floor(Math.random() * message.length);
          
              window.alert(message[b]);
         } 
+        
+        function battle() {
+            var message = ["Eject button", "Fluffy Tail", "Full Heal", "Goal Getter", "Potion", "Slow Smoke", "X Attack", "X speed",]
+                
+             var c = Math.floor(Math.random() * message.length);
+         
+             window.alert(message[c]);
+        }
       
+		
 		</script>
 	</center>
 	<body style="background-color: darkcyan;">
@@ -386,7 +395,7 @@
 				<button onclick="displayRandomImages();" class="button">  Randomize pokemon </button>
 				<button onclick="path();" class="button button45"> Chose random path </button>
 				<button onclick="items();" class="button button450"> Randomize held items </button>
-				<button onclick="items();" class="button button23"> Randomize battle items </button>
+				<button onclick="battle();" class="button button23"> Randomize battle items </button>
 			</center>
 		</div>
 	</body>
