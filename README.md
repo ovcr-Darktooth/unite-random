@@ -15,3 +15,5 @@ it is a simple randomizer for pokemon unite
 broken.html to this github incase someone want to try to fix it but this is all im gonna add, you can still access the pages site using dimcat.github.io/unite-random/broken.html)
 
 ~~4. comfey~~
+
+5. zacian and new held items will be released so i will add those soon
