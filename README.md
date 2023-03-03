@@ -1,6 +1,6 @@
 # unite-random
-this isnt a very complicated program
-it is a simple randomizer for pokemon unite
+this isn't a very complicated program.
+It is a simple randomizer for Pokemon Unite
 # How to use
 1. click link on side
 2. click button
