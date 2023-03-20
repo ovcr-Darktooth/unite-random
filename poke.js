@@ -45,6 +45,11 @@
               width: "256",  
               height: "256"  
             },  
+	    {  
+              src: "https://www.serebii.net/pokemonunite/pokemon/706.png",  
+              width: "256",  
+              height: "256"  
+            },   
             {  
               src: "https://d275t8dp8rxb42.cloudfront.net/pokemon/portrait/Cramorant.png",  
               width: "256",  
