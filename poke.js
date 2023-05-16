@@ -249,6 +249,26 @@
               src: "https://www.serebii.net/pokemonunite/pokemon/888.png",  
               width: "256",  
               height: "256"  
+            },   
+	    {  
+              src: "https://static.wikia.nocookie.net/unite-fanon/images/a/a5/Umbreon.jpg/revision/latest?cb=20220819082359",  
+              width: "256",  
+              height: "256"  
+            },   
+	    {  
+              src: "https://d275t8dp8rxb42.cloudfront.net/pokemon/portrait/Lapras.png",  
+              width: "256",  
+              height: "256"  
+            },  
+	    {  
+              src: "https://d275t8dp8rxb42.cloudfront.net/pokemon/portrait/Zacian.png",  
+              width: "256",  
+              height: "256"  
+            },  
+	    {  
+              src: "https://https://d275t8dp8rxb42.cloudfront.net/pokemon/portrait/Chandelure.png",  
+              width: "256",  
+              height: "256"  
             },  
             
          
