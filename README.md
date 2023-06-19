@@ -17,3 +17,6 @@ broken.html to this github incase someone want to try to fix it but this is all 
 ~~4. comfey~~
 
 ~~5. zacian and new held items will be released so i will add those soon~~
+
+
+# im prolly not gonna add more pokemon. (no one uses this anyway)
