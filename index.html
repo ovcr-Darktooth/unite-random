@@ -2,12 +2,7 @@
 <html>
 	<head>
 		<title>Pokemon unite randomizer</title>
-		<p1> source: Unite-db.com </p1>
-		<p3>|</p3>
-		<p2>
-			<a href="https://github.com/dimcat/unite-random">view the github</a>
-		</p2>
-		<style> 
+		<style>
          .button {
          background-color: #f54e4e; /* pastel red */
          border: none;
@@ -70,26 +65,22 @@
           border-radius: 16px;
          }
          .button5 {background-color: #000000;} /* Black */
-         body {  
-         margin-top: 2px;  
-         }  
-         
+         body {
+         margin-top: 2px;
+         }
+
          .button4 {background-color: #ff00fb;} /* Black */
          body {
-         margin-top: 2px;  
-         }  
+         margin-top: 2px;
+         }
          .button3 {background-color: #427ef5;} /* Black */
          body {
-         margin-top: 2px;  
+         margin-top: 2px;
          }
       </style>
 	</head>
-	<center>
-		<script type="text/javascript" src="poke.js"></script>  
-		
-	
-	</center>
 	<body style="background-color: darkcyan;">
+	    <p>source: <a href="https://unite-db.com">unite-db.com</a> | <a href="https://github.com/dimcat/unite-random">view the github</a></p>
 		<div>
 			<center>
 				<h2 style="font-family: Arial">Random pokemon unite character generator </h2>
@@ -98,7 +89,9 @@
 				<button onclick="path();" class="button button45"> Chose random path </button>
 				<button onclick="items();" class="button button450"> Randomize held items </button>
 				<button onclick="battle();" class="button button23"> Randomize battle items </button>
+				<div style="align-items: center; margin: 30px" id="pokemonImg"></div>
 			</center>
 		</div>
+		<script type="text/javascript" src="poke.js"></script>
 	</body>
 </html>
