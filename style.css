@@ -1,0 +1,33 @@
+.button {
+    background-color: #f54e4e; /* pastel red */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.button5 {background-color: #000000;} /* Black */
+
+.button4 {
+    background-color: #ff00fb;
+    color:black;
+}
+
+.textBlack {
+    color:black;
+}
+
+.bigText {
+    font-size: 2.2em;
+}
+
+.button3 {
+    background-color: #427ef5;
+    color:black;
+}
